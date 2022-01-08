@@ -29,24 +29,24 @@ body {
   background-color: #110819;
   color: #F5F5F5;
   font-family: 'Zen Maru Gothic', sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
 
 h1 {
   font-size: 30px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 25px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 a {

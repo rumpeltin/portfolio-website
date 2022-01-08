@@ -19,9 +19,9 @@ Visited Link (Yellow): #ffff00
    --unvisited-link-color: #ffff90;
    --active-link-color: #05676e;
    --visited-link-color: #ffff00;
-   --font-weight-body: 400px;
+   --font-weight-body: 400;
    --font-size-body: 16px;
-   --font-weight-headings: 700px;
+   --font-weight-headings: 700;
    --max-width-container: 700px;
    --cursor-style: pointer;
    --transition-opacity: 1s opacity;

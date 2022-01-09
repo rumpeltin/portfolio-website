@@ -193,8 +193,14 @@ background: none;
   margin-right: 40px;
 }
 
-.button_contact {
+#button-work {
+  background-color: #663399;
+  color: #F5F5F5;
+}
+
+#button-contact {
   background-color: #669933;
+  color: #F5F5F5;
 }
 
 .standard-submit {

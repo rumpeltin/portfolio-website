@@ -153,8 +153,14 @@ background: none;
   margin-right: 40px;
 }
 
-.button_contact {
+#button-work {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+#button-contact {
   background-color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 .standard-submit {

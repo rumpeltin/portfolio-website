@@ -303,6 +303,12 @@ background: none;
           animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+#freepik-link {
+  font-size: 10px;
+  text-decoration: none;
+  color: #808080;
+}
+
 /* work.html */
 .contact-heading {
   text-align: center;

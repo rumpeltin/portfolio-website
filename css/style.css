@@ -19,6 +19,7 @@ Visited Link (Yellow): #ffff00
    --unvisited-link-color: #ffff90;
    --active-link-color: #05676e;
    --visited-link-color: #ffff00;
+   --freepik-link-color: #808080;
    --font-weight-body: 400;
    --font-size-body: 16px;
    --font-weight-headings: 700;
@@ -227,6 +228,12 @@ background: none;
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+#freepik-link {
+  font-size: 10px;
+  text-decoration: none;
+  color: var(--freepik-link-color);
 }
 
 /* work.html */

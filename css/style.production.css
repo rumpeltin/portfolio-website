@@ -278,23 +278,23 @@ background: none;
 
 @-webkit-keyframes cloud-move-reverse {
   from {
-    -webkit-transform: translate(446px, 48px);
-            transform: translate(446px, 48px);
+    -webkit-transform: translate(146px, 2px);
+            transform: translate(146px, 2px);
   }
   to {
-    -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    -webkit-transform: translate(-300px, 2px);
+            transform: translate(-300px, 2px);
   }
 }
 
 @keyframes cloud-move-reverse {
   from {
-    -webkit-transform: translate(446px, 48px);
-            transform: translate(446px, 48px);
+    -webkit-transform: translate(146px, 2px);
+            transform: translate(146px, 2px);
   }
   to {
-    -webkit-transform: translate(100px, 48px);
-            transform: translate(100px, 48px);
+    -webkit-transform: translate(-300px, 2px);
+            transform: translate(-300px, 2px);
   }
 }
 

@@ -389,21 +389,3 @@ background: none;
     font-size: 15px;
   }
 }
-
-@supports (-ms-ime-align:auto) {
-  .contact-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-  }
-
-  .contact-form, .contact-info {
-    text-align: center;
-    margin: var(--margin-center);
-  }
-
-  .vl {
-    display: none;
-  }
-}

@@ -277,6 +277,10 @@ background: none;
   margin-top: 30px;
 }
 
+input, textarea {
+  color: var(--text-color);
+}
+
 .vl {
   border-left: 1px solid whitesmoke;
   height: 650px;

@@ -366,13 +366,11 @@ background: none;
 
 input {
   color: #F5F5F5;
-  max-width: 150px;
 }
 
 textarea {
   color: #F5F5F5;
-  min-width: 300px;
-  max-width: 300px;
+  width: 300px;
 }
 
 .vl {

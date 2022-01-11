@@ -279,6 +279,7 @@ background: none;
 
 input, textarea {
   color: var(--text-color);
+  max-width: 150px;
 }
 
 .vl {

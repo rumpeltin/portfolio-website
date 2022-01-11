@@ -366,6 +366,7 @@ background: none;
 
 input {
   color: #F5F5F5;
+  max-width: 200px;
 }
 
 textarea {

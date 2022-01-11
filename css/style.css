@@ -279,6 +279,7 @@ background: none;
 
 input {
   color: var(--text-color);
+  max-width: 200px;
 }
 
 textarea {

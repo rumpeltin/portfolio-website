@@ -284,6 +284,7 @@ input {
 
 textarea {
   color: var(--text-color);
+  min-width: 300px;
   max-width: 300px;
 }
 

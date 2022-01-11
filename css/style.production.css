@@ -497,35 +497,3 @@ background: none;
     font-size: 15px;
   }
 }
-
-@supports (-ms-ime-align:auto) {
-  .contact-container {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-  }
-
-  .contact-form {
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .contact-info {
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .vl {
-    display: none;
-  }
-}

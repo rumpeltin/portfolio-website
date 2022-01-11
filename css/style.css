@@ -309,7 +309,7 @@ textarea {
 @supports (display: grid) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     grid-gap: 20px;
     margin: 20px;
@@ -324,7 +324,7 @@ textarea {
   }
 
   .grid__item:last-child {
-    grid-column: 4 / 4;
+    grid-column: 3 / 3;
     grid-row: 1 / 3;
   }
 }

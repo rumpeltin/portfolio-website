@@ -184,7 +184,6 @@ background: none;
 /* about.html */
 .about {
   text-align: center;
-  padding: 10px;
   margin: var(--margin-center);
   max-width: var(--max-width-container);
 }
@@ -242,16 +241,10 @@ background: none;
   color: var(--freepik-link-color);
 }
 
-/* work.html */
-.contact-heading {
-  text-align: center;
-  margin: 10px auto;
-  max-width: var(--max-width-container);
-}
-
+/* projects.html */
 .projects-intro {
   text-align: center;
-  margin: 10px auto;
+  margin: 0 auto;
   max-width: var(--max-width-container);
 }
 
@@ -263,6 +256,12 @@ background: none;
 .contact {
   max-width: var(--max-width-container);
   margin: var(--margin-center);
+}
+
+.contact-heading {
+  text-align: center;
+  margin: 0 auto;
+  max-width: var(--max-width-container);
 }
 
 .contact-container {

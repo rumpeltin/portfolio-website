@@ -235,7 +235,6 @@ background: none;
 /* about.html */
 .about {
   text-align: center;
-  padding: 10px;
   margin: 0 auto;
   max-width: 700px;
 }
@@ -320,16 +319,10 @@ background: none;
   color: #808080;
 }
 
-/* work.html */
-.contact-heading {
-  text-align: center;
-  margin: 10px auto;
-  max-width: 700px;
-}
-
+/* projects.html */
 .projects-intro {
   text-align: center;
-  margin: 10px auto;
+  margin: 0 auto;
   max-width: 700px;
 }
 
@@ -341,6 +334,12 @@ background: none;
 .contact {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.contact-heading {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .contact-container {

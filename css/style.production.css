@@ -404,11 +404,26 @@ textarea {
   }
 
   .grid__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #663399;
     opacity: 80%;
     width: auto;
     min-height: auto;
     padding: 15px;
+    display: flex;
+    width: 33%;
   }
 
   .grid__item:last-child {

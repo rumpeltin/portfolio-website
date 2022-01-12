@@ -315,11 +315,17 @@ textarea {
   }
 
   .grid__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color: var(--primary-color);
     opacity: 80%;
     width: auto;
     min-height: auto;
     padding: 15px;
+    display: flex;
+    width: 33%;
   }
 
   .grid__item:last-child {

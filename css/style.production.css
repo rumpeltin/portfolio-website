@@ -435,7 +435,6 @@ textarea {
     min-height: auto;
     padding: 15px;
     display: flex;
-    width: 33%;
   }
 
   .grid__item:last-child {

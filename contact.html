@@ -45,30 +45,33 @@
 
     <div class="contact-container">
       <div class="contact-form-div">
-        <form class="contact-form" action="" method="POST" id="contact-form">
+        <form class="contact-form" action="mailto:n.rumpeltin@protonmail.com?subject=Enquiry"
+        method="post" enctype="text/plain" id="contact-form">
           <label class="standard-label" for="email">Your Email:</label><br>
           <input type="email" id="email" name="user_email" required>
           <br><br>
           <label class="standard-label" for="UKphone">Your UK Phone Number:</label><br>
-          <input type="tel" id="UKphone">
+          <input type="tel" name="user_uk_phone" id="UKphone">
           <br><br>
-          <label class="standard-label" for="DEphone">Your DE Phone Number:</label><br>
-          <input type="tel" id="DEphone">
+          <label class="standard-label" for="DEphone">Your
+            DE Phone Number:</label><br>
+          <input type="tel" name="user_de_phone" id="DEphone">
           <br><br>
           <label class="standard-label" for="message">Feedback, requests, poems:</label><br>
-          <textarea id="message" cols="33" rows="5" maxlength="1500"
+          <textarea name="user_message" id="message" cols="33" rows="5" maxlength="1500"
           required></textarea>
           <br><br>
           <p>How shall I contact you?</p>
           <label class="standard-label" for="email-preference">Email</label>
-          <input id="email-preference" type="checkbox"><br>
+          <input name="email-preference" id="email-preference" type="checkbox"><br>
           <label class="standard-label" for="call-preference">Call me!</label>
-          <input id="call-preference" type="checkbox"><br>
+          <input name="call-preference" id="call-preference" type="checkbox"><br>
           <label class="standard-label" for="text-preference">Text me!</label>
-          <input id="text-preference" type="checkbox"><br>
+          <input name="text-preference" id="text-preference" type="checkbox"><br>
           <label class="standard-label" for="no-contact-preference">Not at all,
           thanks</label>
-          <input id="no-contact-preference" type="checkbox"><br>
+          <input name="no-contact-preference" id="no-contact-preference"
+          type="checkbox"><br>
           <br>
           <input class="standard-submit" type="submit" value="Submit">
         </form><br>

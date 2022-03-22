@@ -1,7 +1,7 @@
 /*
 Font: Zen Maru Gothic
 Text Color (White Smoke): #F5F5F5;
-Background Color (Black): #110819;
+Background Color (Black): #000000;
 Primary Color (Rebecca Purple): #663399;
 Secondary Color (Green): #669933;
 
@@ -11,27 +11,28 @@ Active Link (Dark Blue/Green): #05676e
 Visited Link (Yellow): #ffff00
  */
 
- :root {
-   --primary-color: #663399;
-   --secondary-color: #669933;
-   --black: #110819;
-   --text-color: #F5F5F5;
-   --unvisited-link-color: #ffff90;
-   --active-link-color: #05676e;
-   --visited-link-color: #ffff00;
-   --freepik-link-color: #808080;
-   --font-weight-body: 400;
-   --font-size-body: 16px;
-   --font-weight-headings: 700;
-   --max-width-container: 700px;
-   --cursor-style: pointer;
-   --transition-opacity: 1s opacity;
-   --margin-center: 0 auto;
- }
+:root {
+  --primary-color: #639;
+  --secondary-color: #693;
+  --black: #000;
+  --text-color: #f5f5f5;
+  --unvisited-link-color: #ffff90;
+  --active-link-color: #05676e;
+  --visited-link-color: #ff0;
+  --freepik-link-color: #808080;
+  --font-weight-body: 400;
+  --font-size-body: 16px;
+  --font-weight-headings: 700;
+  --max-width-container: 700px;
+  --cursor-style: pointer;
+  --transition-opacity: 1s opacity;
+  --margin-center: 0 auto;
+}
 
 * {
- box-sizing: border-box;
- /* forces the padding and border to be included in the final
+  box-sizing: border-box;
+
+  /* forces the padding and border to be included in the final
  specified width rather than being added on top, with the
  width of the item itself changing to accommodate the padding
  and border */
@@ -70,7 +71,8 @@ a:visited {
   color: var(--visited-link-color);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   /* No underlining when hovering over a link */
   text-decoration: none;
   transition: var(--transition-opacity);
@@ -81,9 +83,11 @@ a:active {
   color: var(--active-link-color);
 }
 
-button, .button {
+button,
+.button {
   /* overwrites browser defaults and resets the border */
   border: none;
+
   /* takes the font from the outer container */
   font-family: inherit;
   background-color: var(--primary-color);
@@ -105,9 +109,10 @@ button:focus,
   opacity: 0.8;
 }
 
-input, textarea {
-margin: 1.75%;
-background: none;
+input,
+textarea {
+  margin: 1.75%;
+  background: none;
 }
 
 .page-header {
@@ -164,7 +169,7 @@ background: none;
 }
 
 .standard-submit {
-  color: #F5F5F5;
+  color: #f5f5f5;
   cursor: var(--cursor-style);
   transition: var(--transition-opacity);
 }
@@ -210,9 +215,11 @@ background: none;
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -226,6 +233,7 @@ background: none;
   from {
     transform: translate(146px, 2px);
   }
+
   to {
     transform: translate(-300px, 2px);
   }
@@ -265,10 +273,10 @@ background: none;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .contact-form {
@@ -306,6 +314,7 @@ textarea {
   justify-content: center;
   width: 33%;
 }
+
 /* end grid fallback */
 
 @supports (display: grid) {
@@ -327,7 +336,6 @@ textarea {
     width: auto;
     min-height: auto;
     padding: 15px;
-    display: flex;
   }
 
   .grid__item:last-child {
@@ -358,13 +366,14 @@ textarea {
 
 @media all and (max-width: 650px) {
   .contact-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .contact-form, .contact-info {
+  .contact-form,
+  .contact-info {
     text-align: center;
     margin: var(--margin-center);
   }
@@ -374,7 +383,7 @@ textarea {
   }
 }
 
-@media all and (min-width:500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
